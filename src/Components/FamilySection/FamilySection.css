@@ -1,0 +1,80 @@
+
+.childAgesLabel {
+    justify-content: left; 
+    font-size: 1em;
+    font-weight: 600;  
+}  
+
+.childAgesInput {
+    display: block;
+    width: 70%;
+    margin-top: 25px;
+    border-bottom: 1px solid gray;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden; 
+    outline: none; 
+    font-size: 1em;
+}
+
+
+.numberOfAdultsLabel {
+    justify-content: left; 
+    font-size: 1em;
+    font-weight: 600
+}
+
+.numberOfAdultsInput {
+    width: 15%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden; 
+    outline: none; 
+    font-size: 1em;
+}
+
+input:focus {
+    border: 2px solid #48c6e7;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 820px)  {
+    .numberOfAdultsInput {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 414px)  {
+    .numberOfAdultsInput {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 540px)  {
+    .numberOfAdultsInput {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 414px)  {
+    .numberOfAdultsInput {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 380px)  {
+    .numberOfAdultsInput {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 280px)  {
+    .numberOfAdultsInput {
+        display: block;
+        width: 70%;
+    }
+}
