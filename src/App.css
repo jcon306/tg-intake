@@ -35,13 +35,6 @@
   text-align: center;
 }
 
-.reqAsterisk {
-  display: inline;
-  font-weight: 800;
-  color: red;
-  visibility: visible;
-}
-
 @media screen and (max-width: 500px) {
 
   .form-section {
