@@ -98,7 +98,7 @@ class App extends Component {
         const response = await fetch('https://sheet.best/api/sheets/fd91b4ff-e40a-4167-9c6e-6425acbf86c8'); 
         const data = await response.json();
 
-        const registeredEmails = data.map((row) => row["Client_Email"]);
+        const registeredEmails = data.map((row) => row["Email"]);
 
         return registeredEmails;
     } catch (error) {
@@ -126,7 +126,7 @@ class App extends Component {
                     return
                 } else {
                     const data = {
-                        "Client_Email": this.state.email,
+                        "Email": this.state.email,
                         "Client's Last Name": this.state.lastName,
                         "Client's First Name": this.state.firstName,
                         "Address": `${this.state.address}, ${this.state.city}, ${this.state.zipCode}`,
