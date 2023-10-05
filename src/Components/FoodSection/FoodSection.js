@@ -21,8 +21,8 @@ const FoodSection = ({ dietRestriction, dietRestrictionChange, specialRequests, 
             </select>
       <br />
       <label className='specialRequestLabel'>
-            Any special requests? We will provide the donors with these requests but it will be up
-            to them if they are able to include them: 
+          Sponsors often ask if there is anything special you would like for your Thanksgiving dinner. Please let us know 
+          if you have any special requests and the sponsors will do their best to accommodate.  
             <input 
                 className='specialRequestInput'
                 type='text' 

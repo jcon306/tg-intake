@@ -172,8 +172,6 @@ class App extends Component {
     }
   
   render() {
-    console.log(this.state.firstName, this.state.lastName, this.state.address, this.state.city, this.state.zipCode, this.state.phoneNumber,
-        this.state.email, this.state.numOfAdults, this.state.childAges, this.state.dietRestriction, this.state.specialRequests, this.state.agency)
       return (
         <div className='form-container'>
           <img className='page-logo' src={Logo} alt='F4F Logo' />
